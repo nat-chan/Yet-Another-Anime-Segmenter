@@ -1,0 +1,19 @@
+name: yaas
+channels:
+  - pytorch
+  - conda-forge
+  - default
+  - anaconda
+dependencies:
+  - python=3.8
+  - cudatoolkit=10.1
+  - pytorch=1.7.1
+  - torchvision=0.8.2
+  - torchaudio=0.7.2
+  - pip
+  - pip:
+    - pyyaml==5.1
+    - pycocotools>=2.0.1
+#    - detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/torch1.7/index.html
+#    - git+https://github.com/aim-uofa/AdelaiDet
+# vim:ts=2 sw=2
